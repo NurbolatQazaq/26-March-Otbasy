@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.0df2c0bc-2907-1664-e265-64d734fd7a5a.Caption" Value="Set values: Ticket price" />
+			<Item Name="AddonConfig.Rules.a09b4760-e48c-03ed-2db5-aa36a8ff4daf.Caption" Value="Set values: Comment" />
+			<Item Name="Caption" Value="Yacht (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

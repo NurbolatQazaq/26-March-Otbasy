@@ -137,6 +137,14 @@
     "FB5": 2
   }
 }
++ MetaData.Schema.D2 {
+  "UId": "9f162aa5-51d6-399d-b5e9-f0db8b1eb139",
+  "A2": "UsrTicketPrice",
+  "A3": "7c298f10-26ae-4cdd-a6de-1afc91b95573",
+  "A4": "7c298f10-26ae-4cdd-a6de-1afc91b95573",
+  "A5": "a0a1b2cf-f0eb-4e07-b1a2-1246adc12278",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
 ~ MetaData.Schema.D2 [
   "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
   "e80190a5-03b2-4095-90f7-a193a960adee",
@@ -154,7 +162,8 @@
   "3db1c732-b33d-012b-866a-8501b5d96285",
   "29f862bf-b050-31bd-956d-12030ae397cb",
   "9ab1e6f9-3cf3-3c32-de35-87e0813c03bd",
-  "3d32e039-eec8-672c-0ab4-5bc239146ad1"
+  "3d32e039-eec8-672c-0ab4-5bc239146ad1",
+  "9f162aa5-51d6-399d-b5e9-f0db8b1eb139"
 ]
 = MetaData.Schema.D20.A2 "UsrYachtEvents"
 + MetaData.Schema.D20.FA1 false
