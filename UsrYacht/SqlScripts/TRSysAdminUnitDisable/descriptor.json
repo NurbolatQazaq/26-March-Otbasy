@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "04a84dee-3ab5-775b-50d2-899d36c4d5a1",
+    "Name": "TRSysAdminUnitDisable",
+    "DBEngineType": 0,
+    "InstallType": 0,
+    "ModifiedOnUtc": "\/Date(1777117730000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}
