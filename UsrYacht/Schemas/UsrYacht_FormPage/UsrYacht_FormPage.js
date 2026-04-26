@@ -62,6 +62,47 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
+				"name": "Button_qkqz1dw",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_qkqz1dw_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"icon": "actions-button-icon",
+					"menuItems": [],
+					"clickMode": "menu"
+				},
+				"parentName": "ActionButtonsContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_6srbgu0",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_6srbgu0_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrAveragePriceCalc",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "YachtId"
+						}
+					}
+				},
+				"parentName": "Button_qkqz1dw",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "PushMe",
 				"values": {
 					"type": "crt.Button",
@@ -72,14 +113,12 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"iconPosition": "left-icon",
 					"visible": true,
 					"icon": "settings-button-icon",
-					"clicked": {
-						"request": "crt.CancelRecordChangesRequest"
-					},
+					"clicked": {},
 					"clickMode": "default"
 				},
 				"parentName": "ActionButtonsContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",

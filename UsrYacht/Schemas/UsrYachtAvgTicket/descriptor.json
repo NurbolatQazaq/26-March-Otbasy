@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "3af78a89-7739-41ac-b9f0-e110e98b1b55",
+    "Name": "UsrYachtAvgTicket",
+    "ModifiedOnUtc": "\/Date(1777219878000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Yacht Avg Ticket"
+  }
+}
